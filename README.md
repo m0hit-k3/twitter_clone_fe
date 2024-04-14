@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
-###NPM INSTALL
+## NPM INSTALL
 
-###NPM START
+## NPM START
 
 ## Server Runs on localhost:3000
