@@ -1,0 +1,87 @@
+body {
+    background-color: #e6ecf0;
+}
+
+.tweet {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e1e8ed;
+    border-radius: 10px; /* Rounded corners for the tweet box */
+    width: 80%;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Soft shadow for depth */
+}
+
+.author {
+    display: flex;
+    align-items: center; /* Align author image and name */
+}
+
+.author strong {
+    margin-left: 10px;
+}
+
+.author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+textarea {
+    text-align: center; /* Centers placeholder and user input text */
+}
+
+.date {
+    color: #657786; /* Twitter-like color for date */
+    font-size: 14px;
+    margin-top: 10px; /* Adjusted positioning */
+}
+
+.twitter-logo img {
+    width: 20px;
+}
+
+.createTweet {
+    background-color: #f5f8fa;
+    border: 1px solid #e1e8ed;
+    border-radius: 10px; /* Rounded corners */
+    width: 86%;
+}
+
+.createTweet header {
+    background-color: #1da1f2; /* Twitter's brand color */
+    border-bottom: none; /* Cleaner look without the border */
+    border-top-left-radius: 10px; /* Rounded corners */
+    border-top-right-radius: 10px;
+}
+
+.createTweet section {
+    display: flex;
+    padding: 20px;
+}
+
+textarea {
+    border: 1px solid #e1e8ed;
+    border-radius: 10px; /* Rounded corners */
+    resize: none; /* Disable resizing */
+}
+
+.publish button {
+    background-color: #1da1f2; /* Twitter's brand color */
+    border-radius: 20px; /* More pronounced rounded corners */
+}
+
+.delete, .edit {
+    font-size: 16px; /* Adjust size for better visibility */
+    color: #1da1f2; /* Consistent with Twitter's brand color */
+}

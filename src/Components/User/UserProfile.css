@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6ecf0;
+    color: #14171a;
+}
+
+.user-profile {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.user-info h3 {
+    margin: 0;
+    color: #1da1f2;
+}
+
+.user-info p {
+    margin: 5px 0 0;
+}
+
+
+.tweets {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tweet {
+    padding: 10px;
+    border-bottom: 1px solid #e1e8ed;
+}
+
+.tweet:last-child {
+    border-bottom: none;
+}
+
+.tweet button {
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.tweet button:hover {
+    background-color: #1991db;
+}

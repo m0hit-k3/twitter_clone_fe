@@ -1,0 +1,27 @@
+.container {
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: border 0.3s ease;
+    width: 80%;
+    background-color: #f5f8fa;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.file-uploader:hover {
+    border-color: #1da1f2;
+}
+
+.file-uploader input[type="file"] {
+    display: none;
+}
+
+.file-uploader__text {
+    color: #657786;
+    font-size: 16px;
+}
